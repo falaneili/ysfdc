@@ -13,21 +13,21 @@
 	position:relative;
 	width:980px;
 	margin:0 auto;
-	height:550px;
+	height:373px;
 }
 .index-main-box {
 	width: 100%;
 	position:relative;
 	display:block;
 	overflow:hidden;
-	height:550px;
+	height:373px;
 }
 #indexslider {
 	position:relative;
 	width:1920px;
 	left:50%;
 	margin-left:-960px;
-	height:550px;
+	height:373px;
 }
 .index-main-box .prev{
     position: absolute;
@@ -54,12 +54,12 @@
 .index-img {
 	display:block;
 	width:1920px;
-	height:550px;
+	height:373px;
 	overflow:hidden;
 }
 .index-img img {
 	width:1920px;
-	height:550px;
+	height:373px;
 }
 .index-pagination {
 	position:absolute;
