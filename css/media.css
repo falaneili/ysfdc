@@ -1,0 +1,336 @@
+@media (max-width: 1366px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    /*项目户型图*/
+    .Apar-tit {
+        padding: 0 0 10px 0;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+    .Apar-tit h1 {
+        display: inline-block;
+        font-size: 26px;
+        line-height: 36px;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    .Apar-tit .subtitle .txt {
+        float: left;
+        font-size: 14px;
+        line-height: 24px;
+        color: #999999;
+    }
+
+    .Apar-tit .subtitle .more {
+        float: right;
+        font-size: 14px;
+        line-height: 24px;
+        color: #666;
+    }
+
+    a.hover_red:hover {
+        color: #E03236 !important;
+    }
+
+    .Apar-content .Apar-item {
+        width: 306px;
+        height: 175px;
+        float: left;
+        margin-top: 10px;
+        /*box-shadow: 0px 1px 10px #999;*/
+        position: relative;
+    }
+
+    .Apar-content .Apar-item:not(:nth-child(3n-2)) {
+        margin-left: 10px;
+    }
+
+    .Apar-content .Apar-item figure {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Apar-content .Apar-item figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Apar-content .Apar-item .make {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .5);
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 20px 0 0 20px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: all ease-in-out .3s;
+    }
+
+    .Apar-content .Apar-item .make h1 {
+        color: #FFF;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: normal;
+    }
+
+    .Apar-content .Apar-item .make h2 {
+        color: #FFF;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    .Apar-content .Apar-item .make a.more {
+        display: block;
+        background: #FFF;
+        color: #333;
+        width: 250px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .Apar-content .Apar-item:hover .make {
+        opacity: 1;
+    }
+
+    /*公司简介*/
+    .habout {
+        padding-top: 1.6rem;
+    }
+
+    .habout-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 415px;
+        background: #353a4b;
+        margin-top: 10px;
+    }
+
+    .habout-content figure {
+        width: 470px;
+        height: 405px;
+        border: 5px solid #bd8b66;
+    }
+
+    .habout-content figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .habout-content .habout-txt {
+        width: 465px;
+        height: 415px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .habout-content .habout-txt h1 {
+        font-size: 24px;
+        color: #FFF;
+        margin-top: 0px;
+    }
+
+    .habout-content .habout-txt p {
+        text-indent: 2em;
+        line-height: 22px;
+        color: #FFF;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    /*配套设施*/
+    .Matching {
+        padding-top: 1.6rem;
+    }
+
+    .Mat-content {
+        margin-top: 10px;
+    }
+
+    .Mat-content .Mat-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: 293px;
+        background: #f0f6ff;
+        color: #666;
+    }
+
+    .Mat-content .Mat-item figure {
+        width: 474px;
+        height: 293px;
+    }
+
+    .Mat-content .Mat-item figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Mat-content .Mat-item .Mat-txt {
+        width: 474px;
+        height: 293px;
+        overflow: hidden;
+    }
+
+    .Mat-content .Mat-item .Matbg {
+        background: url(../images/MatBg.png) no-repeat center center;
+        background-size: contain;
+    }
+
+    .Mat-content .Mat-item .Mat-txt h1 {
+        text-align: center;
+        font-size: 18px;
+        color: #576b95;
+        margin: 45px 0 5px 0;
+    }
+
+    .Mat-content .Mat-item .Mat-txt p {
+        text-align: center;
+        line-height: 22px;
+        font-size: 12px;
+    }
+
+    .Mat-content .Mat-item .Mat-txt .Mat-txt-p2 {
+        line-height: 30px;
+        margin-top: 40px;
+    }
+
+    .Mat-content .Mat-item .Mat-txt .Mat-txt-p3 {
+        line-height: 40px;
+        margin-top: 80px;
+    }
+
+    .Mat-content .Mat-item .Mat-txt .Mat-txt-h1 {
+        margin-top: 70px;
+    }
+
+    .Mat-content .Mat-item .Mat-txt .Mat-txt-p4 {
+        line-height: 30px;
+    }
+
+    .Mat-content .Mat-item_Img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: #FFF;
+        color: #666;
+    }
+
+    .Mat-content .Mat-item_Img figure {
+        width: 470px;
+        height: 224px;
+        margin-top: 15px;
+    }
+
+    .Mat-content .Mat-item_Img figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /*友情链接*/
+    .link {
+        background: #FFF;
+        padding: 0 0 10px 0;
+        margin-top: 10px;
+        color: #333;
+    }
+
+    .link .link-content {
+        width: 950px;
+        margin: 0 auto;
+    }
+
+    .link a {
+        color: #333;
+        margin-left: 10px;
+        margin-top: 10px;
+        display: inline-block;
+    }
+    /*微信扫一扫咨询更多*/
+    .code {
+        background: #FFF;
+        width: 150px;
+        height: 180px;
+        padding: 5px;
+        box-sizing: border-box;
+        position: fixed;
+        top: 400px;
+        left: 15px;
+        z-index: 100;
+    }
+
+    .code figure {
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+    }
+
+    .code figure img {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .code p {
+        line-height: 30px;
+        color: #333;
+        text-align: center;
+    }
+    /*返回顶部*/
+    .tbox {
+        width: 48px;
+        float: right;
+        position: fixed;
+        left: 50%;
+        margin-left: 550px;
+        bottom: 15px;
+    }
+
+    .tbox #gotop {
+        width: 48px;
+        height: 48px;
+        background: #ccc url(../images/goTop.png) no-repeat 0 0;
+        display: block;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    body {
+        display: none;
+    }
+
+    html:after {
+        display: block;
+        content: "网站正在建设中...";
+        width: 100%;
+        height: 400px;
+        padding: 1.6rem;
+        font-size: 2rem;
+        color: #FFF;
+    }
+}
+
+@media (max-width: 640px) {
+    body {
+        display: none;
+    }
+
+    html:after {
+        display: block;
+        content: "移动端正在建设中...";
+        width: 100%;
+        height: 400px;
+        padding: 1.6rem;
+        font-size: 1.6rem;
+        color: #FFF;
+    }
+}
