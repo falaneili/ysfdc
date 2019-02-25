@@ -1,5 +1,5 @@
 body {
-    background: #262834;
+    background: #343339;
 }
 
 html,
@@ -61,7 +61,7 @@ p {
 
 /* 轮播图 */
 .banner {
-    box-shadow: 0px 2px 10px 2px rgb(12, 15, 34);
+    box-shadow: 0px 2px 10px 2px #141125;
     /*rgb(130, 128, 128)*/
 }
 
@@ -185,15 +185,14 @@ a.hover_red:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 497px;
-    background: #353a4b;
+    height: auto;
+    background: #492F18;
     margin-top: 10px;
 }
 
 .habout-content figure {
-    width: 564px;
-    height: 487px;
-    border: 5px solid #bd8b66;
+    width: 100%;
+    height: 700px;
 }
 
 .habout-content figure img {
@@ -202,20 +201,24 @@ a.hover_red:hover {
 }
 
 .habout-content .habout-txt {
-    width: 574px;
-    padding: 20px;
-    box-sizing: border-box;
+    width: 60%;
+    margin: -70px auto 0 auto;
+    padding: 70px 80px;
+    box-sizing: border-box;   
+    background: linear-gradient(#834b32, #A48467);
+    /* 标准的语法 */
 }
 
 .habout-content .habout-txt h1 {
-    font-size: 24px;
+    font-size: 36px;
+    text-align: center;
     color: #FFF;
-    margin-top: 35px;
 }
 
 .habout-content .habout-txt p {
     text-indent: 2em;
-    line-height: 25px;
+    line-height: 40px;
+    font-size: 20px;
     color: #FFF;
     margin-top: 20px;
     text-align: justify;
@@ -234,14 +237,13 @@ a.hover_red:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 352px;
-    background: #f0f6ff;
-    color: #666;
+    background: #492F18;
+    color: #FFF;
 }
 
 .Mat-content .Mat-item figure {
-    width: 574px;
-    height: 352px;
+    width: 100%;
+    height: 500px;
 }
 
 .Mat-content .Mat-item figure img {
@@ -250,43 +252,43 @@ a.hover_red:hover {
 }
 
 .Mat-content .Mat-item .Mat-txt {
-    width: 574px;
-    height: 352px;
-    overflow: hidden;
-}
-
-.Mat-content .Mat-item .Matbg {
-    background: url(../images/MatBg.png) no-repeat center center;
+    width: 60%;
+    margin: -70px auto 0 auto;
+    padding: 20px 80px;
+    box-sizing: border-box;
+    background: linear-gradient(#834b32, #A48467);
 }
 
 .Mat-content .Mat-item .Mat-txt h1 {
     text-align: center;
-    font-size: 20px;
-    color: #576b95;
-    margin: 55px 0 10px 0;
+    font-size: 36px;
+    color: #FFF;
+    margin: 50px 0 30px 0;
 }
 
 .Mat-content .Mat-item .Mat-txt p {
     text-align: center;
-    line-height: 25px;
+    line-height: 45px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .Mat-content .Mat-item .Mat-txt .Mat-txt-p2 {
-    line-height: 35px;
+    line-height: 45px;
     margin-top: 40px;
 }
 
 .Mat-content .Mat-item .Mat-txt .Mat-txt-p3 {
-    line-height: 40px;
-    margin-top: 80px;
+    line-height: 60px;
+    margin-top: 50px;
 }
 
 .Mat-content .Mat-item .Mat-txt .Mat-txt-h1 {
-    margin-top: 70px;
+    font-size: 32px;
 }
 
 .Mat-content .Mat-item .Mat-txt .Mat-txt-p4 {
-    line-height: 40px;
+    line-height: 45px;
 }
 
 .Mat-content .Mat-item_Img {
@@ -298,8 +300,8 @@ a.hover_red:hover {
 }
 
 .Mat-content .Mat-item_Img figure {
-    width: 567px;
-    height: 270px;
+    width: 100%;
+    height: 500px;
     margin-top: 15px;
 }
 
